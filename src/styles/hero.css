@@ -1,0 +1,78 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.highlight {
+  background: linear-gradient(270deg, #4f46e5, #22c55e, #06b6d4, #4f46e5);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 6s ease infinite;
+  font-weight: bold;
+  position: relative;
+}
+
+.highlight::after {
+  content: "|";
+  margin-left: 5px;
+  color: #fff;
+  animation: blink 1s infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.hero-buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+}
+
+.btn.secondary {
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+}
+
+.btn.secondary:hover {
+  background: #4f46e5;
+  color: white;
+  transform: translateY(-2px);
+}
