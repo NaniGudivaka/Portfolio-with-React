@@ -33,7 +33,7 @@ const Hero = () => {
   }, [text, isDeleting, roleIndex]);
 
   return (
-    <section className="hero">
+    <section className="hero hero-section">
       <h1>Hi, I'm Nani 👋</h1>
 
       <h2 className="hero-title">
@@ -43,7 +43,7 @@ const Hero = () => {
       <p>I will update this latter</p>
 
       <div className="hero-buttons">
-        <a href="nanigudivaka0804@gmail.com" className="btn primary">
+        <a href="mailto:nanigudivaka0804@gmail.com" className="btn primary">
           Email Me
         </a>
 
