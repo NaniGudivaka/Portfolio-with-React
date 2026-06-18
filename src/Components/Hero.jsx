@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import '../styles/hero.css'
+import '../styles/hero.css';
 
-const roles = ["Frontend", "React", "JavaScript"];
+
+const roles = ["Full Stack", "React", "JavaScript"];
 
 const Hero = () => {
   const [text, setText] = useState("");
@@ -33,22 +34,71 @@ const Hero = () => {
   }, [text, isDeleting, roleIndex]);
 
   return (
-    <section className="hero hero-section">
+    <section id="hero" className="hero hero-section">
       <h1>Hi, I'm Nani 👋</h1>
 
       <h2 className="hero-title">
         I am <span className="highlight">{text}</span>Developer
       </h2>
 
-      <p>I will update this latter</p>
+      <p>Frontend & Full Stack Developer with 3.5 years of software industry experience, building modern and responsive web applications using <br></br>React, Node.js, and MySQL.</p>
 
       <div className="hero-buttons">
-        <a href="mailto:nanigudivaka0804@gmail.com" className="btn primary">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=nanigudivaka0804@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn primary"
+        >
           Email Me
         </a>
 
         <a href="/resume.pdf" download className="btn secondary">
           Download Resume
+        </a>
+      </div>
+      <div className="social-buttons">
+        <a
+          href="https://linkedin.com/in/gudivaka-nani"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn social-btn"
+        >
+          <img
+            src="./linkedin.png"
+            alt="LinkedIn"
+            width="30"
+            height="30"
+          />
+        </a>
+
+        <a
+          href="https://github.com/NaniGudivaka"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn social-btn"
+        >
+            <img
+            src="./github.png"
+            alt="GitHub"
+            width="30"
+            height="30"
+          />
+
+        </a>
+
+        <a
+          href="https://vercel.com/nanigudivakas-projects"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn social-btn"
+        >
+            <img
+            src="./vercel.png"
+            alt="Vercel"
+            width="30"
+            height="30"
+          />
         </a>
       </div>
     </section>

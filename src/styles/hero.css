@@ -81,3 +81,25 @@
   color: white;
   transform: translateY(-2px);
 }
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  padding: 10px 20px;
+  border: 2px solid #5a4cff;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  background: #8b87b6;
+  transform: translateY(-2px);
+}

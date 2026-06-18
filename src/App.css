@@ -70,3 +70,14 @@ html {
   background: black;
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+#about {
+  scroll-margin-top: 100px;
+}
+#experience{
+  scroll-margin-top: 120px;
+
+}
