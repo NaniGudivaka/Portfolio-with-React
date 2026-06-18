@@ -15,7 +15,7 @@ const About = () => {
 
       <div className="about-highlights">
         <div className="highlight-card">
-          <h3>3.5+</h3>
+          <h3>2+</h3>
           <p>Years Experience</p>
         </div>
 
