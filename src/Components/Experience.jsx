@@ -1,23 +1,26 @@
-import React from 'react'
+import React from 'react';
+import "../styles/experience.css"
 
 const Experience = () => {
   return (
-     <section id="experience" className="experience">
+    <section id="experience" className="experience">
       <h2>Experience</h2>
 
       <div className="exp-card">
-        <h3>Frontend Developer</h3>
-        <p>Company Name</p>
-        <p>2023 - Present</p>
+        <h3>Software Engineer</h3>
+        <p>Oracle CC&B & Integrations</p>
+        <p>3.5 Years Experience</p>
 
         <ul>
-          <li>Developed responsive UI using React</li>
-          <li>Worked with APIs and state management</li>
-          <li>Improved performance and UX</li>
+          <li>Worked on Oracle CC&B implementation and support projects.</li>
+          <li>Developed and maintained Oracle Integration solutions.</li>
+          <li>Collaborated with cross-functional teams to deliver business requirements.</li>
+          <li>Analyzed and resolved production issues to ensure system reliability.</li>
+          <li>Currently transitioning into Full Stack Development with React, Node.js, and MySQL.</li>
         </ul>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

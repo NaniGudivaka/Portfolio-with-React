@@ -75,9 +75,13 @@ html {
 }
 
 #about {
-  scroll-margin-top: 100px;
+  padding-top: 90px;
 }
-#experience{
-  scroll-margin-top: 120px;
-
+#experience {
+  padding-top: 50px;
+  min-height: 100vh;
+}
+#projects{
+  padding-top: 40px;
+  min-height: 100vh;
 }
