@@ -1,16 +1,112 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive single-page portfolio website built using React. This project showcases my professional experience, technical skills, projects, and contact information in a clean and modern user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive design for desktop, tablet, and mobile devices
+* Fixed navigation bar with smooth scrolling
+* Single Page Application (SPA) layout
+* Anchor tag navigation between sections
+* Hero section with animated role typing effect
+* About section with skills and technology stack
+* Professional experience section
+* Projects showcase section
+* Mobile-friendly hamburger menu using React Icons
+* Resume download functionality
+* Social media links (LinkedIn, GitHub, Portfolio)
+* Footer with quick access links
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Libraries
+
+* React Icons
+
+## Project Structure
+
+* Hero Section
+* About Section
+* Experience Section
+* Projects Section
+* Let's Connect Section
+* Footer
+
+## Navigation Approach
+
+This portfolio is implemented as a Single Page Application (SPA).
+
+Instead of using React Router, anchor tags are used for navigation because all content exists on a single page.
+
+Example:
+
+```html
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+```
+
+This approach provides:
+
+* Simpler implementation
+* Better user experience for a portfolio website
+* Smooth scrolling navigation
+* No additional route configuration required
+
+## Mobile Responsiveness
+
+To improve the mobile experience:
+
+* Responsive layouts created using CSS media queries
+* Navigation automatically switches to a hamburger menu on smaller screens
+* Hamburger menu implemented using React Icons
+* Menu closes automatically after selecting a section
+
+## Key Learnings
+
+During this project I practiced:
+
+* React Components
+* JSX
+* Props
+* useState Hook
+* useEffect Hook
+* Responsive Web Design
+* CSS Flexbox
+* CSS Media Queries
+* Conditional Rendering
+* React Icons Integration
+* Single Page Application Design
+* Smooth Scroll Navigation
+
+## Projects Highlighted
+
+* E-Commerce Website Simulation
+* Authentication System using Node.js
+* Todo Application
+* Lottery Game
+* Calculator Application
+
+## Future Improvements
+
+* Dark/Light Theme Toggle
+* Contact Form Integration
+* Backend API Integration
+* Project Filtering
+* Animations using Framer Motion
+* Deployment Analytics
+* Blog Section
+
+## Author
+
+Nani Gudivaka
+
+Frontend & Full Stack Developer
+
+
