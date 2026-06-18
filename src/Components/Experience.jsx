@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="exp-card">
         <h3>Software Engineer</h3>
         <p>Oracle CC&B & Integrations</p>
-        <p>3.5 Years Experience</p>
+        <p>2.1 Years Experience</p>
 
         <ul>
           <li>Worked on Oracle CC&B implementation and support projects.</li>

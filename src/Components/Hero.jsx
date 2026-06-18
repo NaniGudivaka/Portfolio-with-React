@@ -41,7 +41,7 @@ const Hero = () => {
         I am <span className="highlight">{text}</span>Developer
       </h2>
 
-      <p>Frontend & Full Stack Developer with 3.5 years of software industry experience, building modern and responsive web applications using <br></br>React, Node.js, and MySQL.</p>
+      <p>Frontend & Full Stack Developer with 2.1 years of software industry experience, building modern and responsive web applications using <br></br>React, Node.js, and MySQL.</p>
 
       <div className="hero-buttons">
         <a

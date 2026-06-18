@@ -7,7 +7,7 @@ const About = () => {
       <h2 className="header-section">About Me</h2>
 
       <p className="about-text">
-        Full Stack Developer with <strong>3.5 years</strong> of software
+        Full Stack Developer with <strong>2.1 years</strong> of software
         industry experience. Experienced in Oracle CC&B and Integrations,
         currently focused on building modern web applications using React,
         Node.js, Express.js, and MySQL.
