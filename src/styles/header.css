@@ -65,3 +65,37 @@
     font-size: 0.9rem;
   }
 }
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .header .nav {
+    display: none;
+  }
+
+  .header .nav.active {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 70px;
+    right: 20px;
+
+    background: rgb(46, 13, 86);
+    padding: 15px 20px;
+    border-radius: 10px;
+
+    gap: 15px;
+  }
+}

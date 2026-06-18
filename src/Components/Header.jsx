@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import "../styles/header.css";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="header">
       <h2>
@@ -10,7 +13,14 @@ const Header = () => {
         </a>
       </h2>
 
-      <nav>
+      <button
+        className="menu-btn"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        <FaBars />
+      </button>
+
+      <nav className={menuOpen ? "nav active" : "nav"}>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
