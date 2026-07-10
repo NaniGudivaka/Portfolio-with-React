@@ -1,9 +1,15 @@
+.about{
+  background: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .about-highlights {
   display: flex;
   justify-content: center;
   gap: 25px;
   margin: 40px 0;
   flex-wrap: wrap;
+  
 }
 
 .highlight-card {
