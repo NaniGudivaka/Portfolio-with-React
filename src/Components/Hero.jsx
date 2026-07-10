@@ -53,7 +53,7 @@ const Hero = () => {
           Email Me
         </a>
 
-        <a href="/resume.pdf" download className="btn secondary">
+        <a href="/resume/NaniGudivaka_Resume.pdf" download className="btn secondary">
           Download Resume
         </a>
       </div>
