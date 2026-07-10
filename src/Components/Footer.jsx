@@ -28,7 +28,7 @@ const Footer = () => {
             height="30"
           />
         </a>
-        <a href="/resume.pdf" download>📄</a>
+        <a href="/resume/NaniGudivaka_Resume.pdf" download>📄</a>
       </div>
 
       <p>© 2026 Nani Gudivaka</p>
